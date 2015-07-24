@@ -95,8 +95,6 @@ switch (_shop) do
 			["O_Heli_Light_02_unarmed_F",750000]];
 			_return set[count _return,
 			["O_Heli_Transport_04_box_F",1250000]];
-			_return set[count _return,
-			["kyo_MH47E_HC",1250000]];
 		};
 	};
 
@@ -127,6 +125,8 @@ switch (_shop) do
 		["O_Heli_Light_02_unarmed_F",350000]];
 		_return set[count _return,
 		["O_Heli_Transport_04_F",550000]];
+		_return set[count _return,
+		["kyo_MH47E_HC",1250000]];
 	};
 	
 	case "cop_car_1":
