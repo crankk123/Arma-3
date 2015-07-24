@@ -20,5 +20,6 @@ switch (true) do {
 	case (_house in ["Land_i_House_Small_02_V1_F","Land_i_House_Small_02_V2_F","Land_i_House_Small_02_V3_F"]): {[22500000,2]};
 	case (_house in ["Land_i_House_Small_03_V1_F"]): {[18500000,3]};
 	case (_house in ["Land_i_Stone_HouseSmall_V2_F","Land_i_Stone_HouseSmall_V1_F","Land_i_Stone_HouseSmall_V3_F"]): {[4000000,1]};
+	case (_house in ["Land_Offices_01_V1_F","Land_MilOffices_V1_F"]): {[4500000,5]};
 	default {[]};
 };
