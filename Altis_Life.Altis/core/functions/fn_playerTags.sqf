@@ -1,11 +1,12 @@
-#include <macro.h>
 /*
+#include <macro.h>
+
     File: fn_playerTags.sqf
     Author: Bryan "Tonic" Boardwine
     
     Description:
     Adds the tags above other players heads when close and have visible range.
-*/
+
 private["_ui","_units","_goggles"];
 #define iconID 78000
 #define scale 0.8
@@ -82,3 +83,4 @@ _units = _units - [player];
         _idc ctrlShow false;
     };
 } foreach _units;
+*/
