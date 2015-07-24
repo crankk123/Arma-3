@@ -220,7 +220,7 @@ class Mission
 	class Intel
 	{
 		briefingName="SealDrop Altis Life RPG";
-		overviewText="SealDrop.de Altis Life";
+		overviewText="Altis Life";
 		startWeather=0.1;
 		startWind=0.29999998;
 		startWindDir=20;
