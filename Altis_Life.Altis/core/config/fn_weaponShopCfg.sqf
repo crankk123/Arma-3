@@ -250,7 +250,7 @@ switch(_shop) do
 						["Binocular",nil,150],
 						["Rangefinder",nil,150],
 						["ItemGPS",nil,250],
-						["NVGoggles_OPFOR",nil,2000],
+						["pmc_earpiece",nil,2000],
 						["tf_anprc148jem_13","Kurzstreckenfunk",100],
 						["tf_anprc155","Langstreckenfunk",1000],
 						["cse_epinephrine",nil,1500],
