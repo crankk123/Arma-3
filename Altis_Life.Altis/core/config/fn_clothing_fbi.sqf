@@ -25,7 +25,6 @@ switch (_filter) do
 		[
 			
 			["FBI_rang9",nil,250],
-			["FBI_rang10",nil,250],
 			["TRYK_U_B_C02_Tsirt","Schwarze Jeans",450],
 			["KAEL_SUITS_BR_F13","Anzug (Weiss)",17500],
 			["KAEL_SUITS_BR_F4","Anzug (Lila)",17500],
@@ -34,6 +33,7 @@ switch (_filter) do
 			["KAEL_SUITS_BR_F3","Anzug (Blau)",17500],
 			["A3L_Suit_Uniform","Anzug (Schwarz)",17500],
 			["A3L_Worker_Outfit","Arbeiterkleidung",20000],
+			["A3LShirt","ArmA 3 Life Shirt",250],
 			["vacationshirt_uni","Urlaubskleidung",350]
 		];
 	};
@@ -61,10 +61,6 @@ switch (_filter) do
 			["A3L_Halloween_PredatorMask","Predator",7500],
 			["A3L_Halloween_JigSaw","Jigsaw",7500],
 			["jokermask","Clown",7500],
-			["A3L_PaintBallHelmet_green","PaintballG",5000],
-			["A3L_PaintBallHelmet_red","PaintballR",5000],
-			["A3L_PaintBallHelmet_blue","PaintballB",5000],
-			["A3L_PaintBallHelmet_yellow","PaintballY",5000],
 			["A3L_soa_helmet","Biker Helm",4000],	
 			["A3L_gangster_hat","Gangster Maske",1000],
 			["A3L_Mask","Mask",1000],				
@@ -78,27 +74,6 @@ switch (_filter) do
 			["A3L_Sombrero","Sombrero",120],
 			["turban","Turban",120],
 			["A3L_russianhat","Schapka Uschanka",120],
-			["H_Cap_tan",nil,120],
-			["H_Cap_blk",nil,120],
-			["H_Cap_blk_CMMG",nil,120],
-			["H_Cap_brn_SPECOPS",nil,120],
-			["H_Cap_tan_specops_US",nil,120],
-			["H_Cap_khaki_specops_UK",nil,120],
-			["H_Cap_grn",nil,120],
-			["H_Cap_grn_BI",nil,120],
-			["H_Cap_blk_Raven",nil,120],
-			["H_Cap_blk_ION",nil,120],
-			["kio_capital_hat",nil,5000],
-			["kio_hat",nil,5000],
-			["kio_no1_hat",nil,5000],
-			["kio_pirate_hat",nil,5000],
-			["kio_santa_hat",nil,5000],
-			["kio_spinning_hat","Propellerhut",5000],
-			["H_Hat_Kufiya_B",nil,7500],
-			["H_Hat_Kufiya_F",nil,7500],
-			["H_Hat_Taqiyah_A",nil,7500],
-			["H_Hat_Taqiyah_B",nil,7500],
-			["H_Hat_Taqiyah_E",nil,7500]
 		];
 	};
 	
@@ -163,7 +138,7 @@ switch (_filter) do
 			["B_FieldPack_ocamo",nil,300],
 			["B_Bergen_sgg",nil,450],
 			["B_Kitbag_cbr",nil,450],
-			["B_Carryall_oli",nil,500],
+			["B_Carryall_oli",nil,500],		
 			["B_Carryall_khk",nil,500]
 		];
 	};
