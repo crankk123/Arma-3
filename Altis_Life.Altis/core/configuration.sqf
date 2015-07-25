@@ -251,7 +251,8 @@ life_licenses =
 	["license_civ_stiller","civ"],
 	["license_civ_liquor","civ"],
 	["license_civ_bottler","civ"],
-	["license_civ_uranium","civ"]
+	["license_civ_uranium","civ"],
+	["license_civ_pyro","civ"]
 ];
 
 //Setup License Variables

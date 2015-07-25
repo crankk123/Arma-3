@@ -220,7 +220,7 @@ class Mission
 	class Intel
 	{
 		briefingName="SealDrop Altis Life RPG";
-		overviewText="Altis Life";
+		overviewText="SealDrop.de Altis Life";
 		startWeather=0.1;
 		startWind=0.29999998;
 		startWindDir=20;
@@ -6609,13 +6609,14 @@ class Mission
 				class Item0
 				{
 					position[]={5307.8799,89.634651,11506.736};
-					azimut=-94.674614;
+					azimut=-94.674599;
 					id=351;
 					side="CIV";
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false;  this allowDamage false;  this addAction[""Kohle verarbeiten"",life_fnc_processAction,""schwarzpulver"",0,false,false,"""",' life_inv_kohle > 0 && !life_is_processing'];";
+					text="schwarz_process";
+					init="this enableSimulation false;   this allowDamage false;    this addAction[""Kohle verarbeiten"",life_fnc_processAction,""kohle"",0,false,false,"""",' life_inv_schwarzpulver > 0 && !life_is_processing'];   this addAction[""Pyro Technicker Lizenz ($30000)"",life_fnc_buyLicense,""pyro"",0,false,false,"""",' !license_civ_pyro && playerSide == civilian '];";
 				};
 			};
 		};
@@ -51492,10 +51493,11 @@ class Mission
 		};
 		class Item337
 		{
-			position[]={5309.1333,89.742584,11506.656};
+			position[]={5312.2422,90.017929,11506.484};
 			name="schwarz_1";
 			text="Schwarzpulver Verarbeiter";
 			type="A3L_Factory_Green_Icon";
+			colorName="ColorBlack";
 		};
 	};
 	class Sensors
