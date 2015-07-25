@@ -36,7 +36,7 @@ _itemInfo = switch (_type) do
 	case "mash": {["water","mash",100,"Mixing Grain Mash",true,"cornmeal"]};//new
     case "uranium1": {["uranium1","uranium2",5000,"Reinigung des Urans"]}; // Add this
     case "uranium4": {["uranium4","uranium",15000,"Uran wird getrocknet"]}; // Add this
-	case "rebel": {["kohle","schwarzpulver",2200,"Verarbeite Kohle"];};
+	case "kohle": {["kohle","schwarzpulver",2200,"Verarbeite Kohle"];};
 	default {[]};
 };
 
