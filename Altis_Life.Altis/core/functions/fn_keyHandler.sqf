@@ -58,6 +58,42 @@ switch (_code) do
 			_handled = true;
 		};
 	};
+	//Q Key
+    case 16:
+    {    
+        if((playerSide == civilian) && (!life_action_inUse) && (vehicle player == player)) then // +  && (!life_fnc_surrender)
+        {
+            {
+                _str = [_x] call life_fnc_varToStr;
+                _val = missionNameSpace getVariable _x;
+                if(_val > 0 ) then
+                {
+                    if( _str == "Spitzhacke" || _str == "pickaxe" ) then
+                    {
+                        [] spawn life_fnc_pickAxeUse;
+                    };
+                };
+            } foreach life_inv_items;
+        }
+    };
+	//E Key
+    case 18:
+    {    
+        if((playerSide == civilian) && (!life_action_inUse) && (vehicle player == player)) then // +  && (!life_fnc_surrender)
+        {
+            {
+                _str = [_x] call life_fnc_varToStr;
+                _val = missionNameSpace getVariable _x;
+                if(_val > 0 ) then
+                {
+                    if( _str == "Axt" || _str == "axt" ) then
+                    {
+                        [] spawn life_fnc_axtUse;
+                    };
+                };
+            } foreach life_inv_items;
+        }
+    };
 	
 	//Map Key
 	case _mapKey:
